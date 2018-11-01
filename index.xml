@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://example.org/hard-arrays/patience-sorting/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/hard-arrays/patience-sorting/intro/</guid>
+      <description>Game of Patience Given a deck of cards, form as few piles as possible with the following rules 1. Can&#39;t place a higher-valued card onto a lowered-valued card. 2. Can form a new pile and put a card onto it.  Solution Greedy: Place each card on leftmost pile that fits, else, create new pile Observation: At any stage, top piles increase from left to right
+Example Given cards [10,9,2,5,3,7,8,9]</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://example.org/topological-sort/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/topological-sort/intro/</guid>
+      <description># Given a adj graph graph = {1: [2,3], 2:[3]} def topsort(graph): stack, seen = [], set() for g in graph: dfs(g, seen, graph, stack) return stack[::-1] def dfs(g, seen, graph, stack): if g in seen: return seen.add(g) for c in graph[g]: dfs(c, seen, graph, stack) stack.append(g)  </description>
+    </item>
+    
+    <item>
+      <title>Longest Increasing Subsequence</title>
+      <link>http://example.org/hard-arrays/patience-sorting/lis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/hard-arrays/patience-sorting/lis/</guid>
+      <description>Extending to Longest Increasing Subsequence (LIS)  Prints: [[10, 9, 2], [5, 3], [7], [8], [9]]  Notice that the last element forms an LIS. To solve LIS, we simply take the last element of each bucket
+We could also omit using a bucket and use a single number (last number) instead
+LIS Given numbers [10,9,2,5,3,7,8,9]
+import bisect def lis(numbers): buckets = [] for c in numbers: if len(buckets) == 0 or c &amp;gt; buckets[-1]: buckets.</description>
+    </item>
+    
+    <item>
+      <title>Cycle Detection</title>
+      <link>http://example.org/topological-sort/cycledetection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/topological-sort/cycledetection/</guid>
+      <description>Given a topological sort is operated on a directed acyclic graph, it is sometimes important to check if the graph does not contain a cycle before proceeding to topological sort
+Nice graph problems: https://algs4.cs.princeton.edu/42digraph/</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/dynamic-programming/reverse-thinking/balloon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/dynamic-programming/reverse-thinking/balloon/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

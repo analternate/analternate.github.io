@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/dynamic-programming/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/hard-arrays/patience-sorting/intro/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/topological-sort/intro/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/hard-arrays/patience-sorting/lis/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/hard-arrays/patience-sorting/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/topological-sort/cycledetection/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/hard-arrays/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/segment-trees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/topological-sort/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/fenwick-trees/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/heaps/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/dynamic-programming/reverse-thinking/balloon/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
